@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/eb2b18fb4e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body style="background-color: #ffffff; color: #000000">
+    <div class="card">
+      <div class="search">
+        <input
+          id="city"
+          type="text"
+          placeholder="City Name"
+          spellcheck="false"
+        />
+        <button onclick="getWeather()">
+          <i class="fa-solid fa-magnifying-glass fa-beat"></i>
+        </button>
+      </div>
+      <div class="weather">
+        <img src="weather.png" class="weatherimg" />
+        <!-- <img src="click.gif" class="click" /> -->
+        <h1 id="temp" class="temp">22°C</h1>
+        <h3 id="cityName" class="city">Deoghar</h3>
+      </div>
+
+      <div class="centre">
+        <div id="banner"><span>Your local time</span></div>
+        <div id="clock"></div>
+      </div>
+    </div>
+  </body>
+  <script src="practice.js"></script>
+</html>

@@ -1,0 +1,136 @@
+/* #grey {
+  background-color: gray;
+  width: 200px;
+  height: 200px;
+}
+#blue {
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+}
+#red {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+}
+#yellow {
+  background-color: yellow;
+  width: 200px;
+  height: 200px;
+}
+.button {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  display: inline-block;
+}
+.canvas {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.centre {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#clock {
+    margin-top: 20px;
+  width: 130px;
+  height: 40px;
+  background-color: orange;
+  color: white;
+  border: 2px white;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  text-align: center;
+  color: green;
+}
+h2{
+        text-align: center;
+        color: rgb(45, 179, 134);
+}  */
+/* ////////////////////////////////////////////////////////////////////////// */
+.card {
+  width: 70%;
+  max-width: 370px;
+  /* height: 200px; */
+  background: linear-gradient(135deg, #44a8c9, #d97fff);
+  color: white;
+  margin: 100px auto 0;
+  border-radius: 20px;
+  padding: 10px 35px;
+  text-align: center;
+}
+
+.search {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search input {
+  border: 0;
+  outline: 0;
+  background: #ebfffc;
+  color: #555;
+  padding: 12px 25px;
+  /* height: 60px; */
+  border-radius: 30px;
+  flex: 1;
+  margin-right: 16px;
+  font-size: 18px;
+}
+.search button {
+  border: 0;
+  outline: 0;
+  background: #ebfffc;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+}
+.weatherimg {
+  margin-top: 30px;
+  width: 150px;
+}
+.centre {
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  margin-right: 350px;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+#clock {
+  margin-top: 5px;
+  /* margin-right: 300px; */
+  width: 130px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.368);
+  color: rgb(34, 66, 105);
+  border: 1px solid white;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  box-shadow: 5px 10px rgba(31, 167, 205, 0.203);
+}
+
+
+  
