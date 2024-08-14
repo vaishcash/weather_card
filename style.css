@@ -156,6 +156,10 @@ body {
 }
 
 @media only screen and (max-width: 488px) {
+  body {
+    padding: 0 14px;
+  }
+
   .search input {
     padding: 10px 20px;
   }
