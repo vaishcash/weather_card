@@ -60,13 +60,30 @@ h2{
         color: rgb(45, 179, 134);
 }  */
 /* ////////////////////////////////////////////////////////////////////////// */
+html {
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #0b2229, #373438);
+  font-family: "Poppins", sans-serif;
+}
+
 .card {
-  width: 70%;
-  max-width: 370px;
-  /* height: 200px; */
+  width: 100%;
+  max-width: 400px;
   background: linear-gradient(135deg, #44a8c9, #d97fff);
   color: white;
-  margin: 100px auto 0;
   border-radius: 20px;
   padding: 10px 35px;
   text-align: center;
@@ -99,7 +116,7 @@ h2{
   border-radius: 50%;
   /* width: 45px; */
   height: 45px;
-    flex: 0 0 45px;
+  flex: 0 0 45px;
   cursor: pointer;
 }
 .weatherimg {
@@ -132,24 +149,38 @@ h2{
   margin-bottom: 30px;
   box-shadow: 5px 10px rgba(31, 167, 205, 0.203);
 }
+.banner {
+  margin-top: 90px;
+
+  font-size: 13px;
+}
 
 @media only screen and (max-width: 488px) {
- .search input {padding: 10px 20px;
+  .search input {
+    padding: 10px 20px;
+  }
+  .centre {
+    width: 45%;
+  }
 }
-.centre{
-  width: 45%;
-}}
-  
+
 @media only screen and (max-width: 448px) {
- .search input {padding: 10px 9px;
-}
+  .search input {
+    padding: 10px 9px;
+  }
 
-.search button{ height: 35px;
+  .search button {
+    height: 35px;
     flex: 0 0 35px;
+  }
+  .search input {
+    font-size: 15px;
+  }
+}
 
+@media only screen and (max-width: 360x) {
+  .centre {
+    width: 56%;
+    margin-right: 0%;
+  }
 }
-.search input {
-  font-size: 15px;
-}
-}
-
