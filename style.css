@@ -97,8 +97,9 @@ h2{
   outline: 0;
   background: #ebfffc;
   border-radius: 50%;
-  width: 45px;
+  /* width: 45px; */
   height: 45px;
+    flex: 0 0 45px;
   cursor: pointer;
 }
 .weatherimg {
@@ -132,5 +133,23 @@ h2{
   box-shadow: 5px 10px rgba(31, 167, 205, 0.203);
 }
 
-
+@media only screen and (max-width: 488px) {
+ .search input {padding: 10px 20px;
+}
+.centre{
+  width: 45%;
+}}
   
+@media only screen and (max-width: 448px) {
+ .search input {padding: 10px 9px;
+}
+
+.search button{ height: 35px;
+    flex: 0 0 35px;
+
+}
+.search input {
+  font-size: 15px;
+}
+}
+
